@@ -1,3 +1,4 @@
+package Vehicle;
 import java.io.*;
 import java.lang.reflect.Constructor;
 import java.util.Scanner;
@@ -7,7 +8,6 @@ import MyTransport.Moped;
 import MyTransport.Motorbike;
 import MyTransport.QuadBike;
 import MyTransport.Scooter;
-import Vehicle.Vehicle;
 
 public class VehicleStatic {
     public static double arithmeticMean(Vehicle vehicle){
