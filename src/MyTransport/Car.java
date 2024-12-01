@@ -26,11 +26,11 @@ public class Car implements Vehicle {
     private String carMark;
     private CarModel[] carModels;
 
-    public Car(String mark, int markCount) {
+    public Car(String mark, int modelCount) {
         carMark = mark;
-        carModels = new CarModel[markCount];
+        carModels = new CarModel[modelCount];
         Random rnd = new Random();
-        for (int i = 0; i < markCount; i++) {
+        for (int i = 0; i < modelCount; i++) {
             carModels[i] = new CarModel("Name:" + i, 1000 + (1000000 - 1000) * rnd.nextDouble());
         }
     }

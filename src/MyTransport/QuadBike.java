@@ -60,7 +60,6 @@ import Vehicle.Vehicle;
 public class QuadBike implements Vehicle {
     private String mark;
     private ArrayList<QuadBikeModel> models;
-
     public QuadBike(String name, int count){
         mark = name;
         models = new ArrayList<QuadBikeModel>();

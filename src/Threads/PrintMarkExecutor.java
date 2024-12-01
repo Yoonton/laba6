@@ -2,7 +2,7 @@ package Threads;
 
 import Vehicle.Vehicle;
 public class PrintMarkExecutor implements Runnable{
-    Vehicle veh;
+    private Vehicle veh;
     public PrintMarkExecutor(Vehicle v){
         veh = v;
     }
